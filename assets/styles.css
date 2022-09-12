@@ -151,7 +151,7 @@ header {
     color: #8fbe32;
 }
 
-.categories .cat-heading {
+.categories .cat-heading h1 {
     font-size: 20px;
     font-weight: normal;
 }
@@ -567,12 +567,110 @@ p.contact-at {
 /* //////////////////////////////////// Feature Page //////////////////////////////////////////////// */
 .feature-heading {
     color: #424748;
-    font-size: 23px;
+    font-size: 25px;
+    margin: 38px 0 75px;
 }
 
 .feature-heading span {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bolder;
+}
+
+.search input[type="search"] {
+    width: 258px;
+    height: 33px;
+    margin-bottom: 40px;
+}
+
+.search .fa-search {
+    margin-left: -20px;
+    color: #c3c3c3;
+    font-size: 13px;
+}
+
+.main-feature-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-sides {
+    width: 305px;
+}
+
+.feature-sides h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feature-category {
+    margin-bottom: 73px;
+}
+
+.feature-text {
+    margin-bottom: 89px;
+}
+
+.feature-archive {
+    margin-bottom: 79px;
+}
+
+.feature-tags ul {
+    width: 284px;
+    padding: 0;
+}
+
+.feature-tags ul li {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    margin: 4px 2px;
+}
+
+.feature-side-2 {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    width: 487px;
+    margin: 0 47px;
+    padding: 0 47px;
+}
+
+.feature-blog {
+    border-bottom: 5px solid #efefef;
+    margin-bottom: 36px;
+}
+
+.feature-blog-img img {
+    width: 100%;
+}
+
+.feature-blog-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+    padding: 27px 0 24px;
+    ;
+}
+
+.feature-blog-text .f-blog-date {
+    color: #a0a0a0;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.feature-blog-text .green-text {
+    color: #8fbe32;
+}
+
+.feature-blog button {
+    border: 1px solid #0093d0;
+    border-radius: 3px;
+    padding: 14px 24px;
+    font-size: 17px;
+    background-color: #0093d0;
+    color: #fff;
+    margin: 22px 0 37px;
 }
