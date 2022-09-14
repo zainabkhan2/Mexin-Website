@@ -82,7 +82,7 @@ header {
 }
 
 
-.nav-bar a.active {
+.nav-bar nav ul li a.active {
     border-top: 4px solid #8fbe32;
     color: #8fbe32;
 }
