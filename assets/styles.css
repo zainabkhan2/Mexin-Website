@@ -449,6 +449,9 @@ p.contact-at {
 }
 
 /* ///////////////////////////// Blogs Page ///////////////////////////////////// */
+.blogs-main-wrapper {
+    background-color: #fbfbfb;
+}
 
 .blog-section-wrapper .date h1 {
     width: 150px;
@@ -488,11 +491,22 @@ p.contact-at {
     position: relative;
 }
 
+.border-right img {
+    position: absolute;
+    top: 16px;
+    left: 395px;
+}
+
+.border-left img {
+    position: absolute;
+    top: 16px;
+    right: 395px;
+}
+
 .left-cards .round-img {
     position: absolute;
     top: 17px;
     right: -60px;
-    ;
 }
 
 .right-cards .round-img {
@@ -555,6 +569,10 @@ p.contact-at {
     margin-top: 60px;
 }
 
+.blog-card-7 {
+    margin-top: 33px;
+}
+
 .blogs-pages {
     width: 347px;
     margin: 90px auto;
@@ -606,20 +624,20 @@ p.contact-at {
     width: 305px;
 }
 
-.feature-side-1 {
+.feature-wrap-1 {
     padding-right: 47px;
     border-right: 1px solid #e5e5e5;
 }
 
-.feature-side-3 {
+.feature-wrap-2 {
     padding-left: 47px;
     border-left: 1px solid #e5e5e5;
 }
 
 .feature-sides h1 {
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .feature-category {
@@ -628,6 +646,10 @@ p.contact-at {
 
 .feature-text {
     margin-bottom: 89px;
+}
+
+.feature-text p {
+    font-size: 15px;
 }
 
 .feature-archive {
